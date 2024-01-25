@@ -1,0 +1,220 @@
+.entryWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.carouselWrapper {
+  max-width: 80%;
+  height: 70%;
+}
+.rowWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.entryWrapper {
+  display: flex;
+  justify-content: baseline;
+  width: 20%;
+}
+.fundoIMG {
+  height: 345px;
+  width: 290px;
+  margin: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+.textoIMG {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  font-family: "LeagueSpartanSemiBold";
+  src: url("./assets/fonts/LeagueSpartan-SemiBold.ttf") format("truetype");
+  align-items: center;
+  justify-content: center;
+}
+.textoWrapper {
+  width: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7a93b;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #815f24;
+}
+
+.imageWrapper {
+  width: 324px;
+  height: 370px;
+  margin: 20px;
+  display: flex;
+  justify-content: baseline;
+  border-top-right-radius: 5.87px;
+  border-top-left-radius: 5.87px;
+}
+.divInterna {
+  font-family: "League Spartan";
+  justify-items: flex-start;
+
+  font-weight: 500;
+  margin: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.recheios {
+  font-size: 15.8px;
+  font-weight: lighter;
+  font-family: "LeagueSpartanLight";
+  margin-top: -5%;
+  justify-content: center;
+  align-items: center;
+}
+.nomePao {
+  font-size: 28.8px;
+  margin: 0;
+  font-family: "LeagueSpartanSemiBold";
+  font-weight: bolder;
+}
+.preco {
+  font-size: 18.6px;
+  font-family: "LeagueSpartanLight";
+  margin: 0;
+  font-family: "LeagueSpartanLight";
+  src: url("./assets/fonts/LeagueSpartan-Light.ttf") format("truetype");
+}
+.hoverContent {
+  margin-top: 57%;
+  height: 50%;
+  font-size: 12px;
+  background: #e7a93b;
+  position: relative;
+  width: 100%;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  font-family: "LeagueSpartanLight";
+}
+.carousel {
+  width: 100%;
+}
+@font-face {
+  font-family: "LeagueSpartanLight";
+  src: url("./assets/fonts/LeagueSpartan-Light.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LeagueSpartanSemiBold";
+  src: url("./assets/fonts/LeagueSpartan-SemiBold.ttf") format("truetype");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@media (max-width: 1439px) {
+  .entryWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .fundoIMG {
+    height: 182px;
+    width: 178px;
+    margin: 5px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .listaWrapper {
+    background-color: rgba(255, 255, 255, 0.678);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 260px;
+    position: relative;
+  }
+  .textoIMG {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    padding: 5px;
+    padding-top: 14px;
+    flex-direction: column;
+    height: 60px;
+    font-family: "LeagueSpartanSemiBold";
+    src: url("./assets/fonts/LeagueSpartan-SemiBold.ttf") format("truetype");
+    align-items: center;
+    justify-content: center;
+  }
+  .textoWrapper {
+    width: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7a93b;
+  }
+  .rowWrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .entryWrapper {
+    display: flex;
+    justify-content: baseline;
+  }
+
+  .imageWrapper {
+    width: 170px;
+    height: 180px;
+    margin: 20px;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    border-top-right-radius: 5.87px;
+    border-top-left-radius: 5.87px;
+  }
+  .divInterna {
+    font-family: "League Spartan";
+    justify-items: flex-start;
+    font-weight: 500;
+    margin: 24px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .nomePao {
+    font-size: 14.4px;
+    margin: 0;
+    font-family: "LeagueSpartanSemiBold";
+    font-weight: bolder;
+  }
+  .recheios {
+    font-size: 10.8px;
+    font-weight: lighter;
+    font-family: "LeagueSpartanLight";
+    margin-top: -5%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .preco {
+    font-size: 10.8px;
+    font-family: "LeagueSpartanLight";
+    margin: 0;
+    font-weight: lighter;
+  }
+  .hoverContent {
+    margin-top: 57%;
+    height: 50%;
+    font-size: 12px;
+    background: #e7a93b;
+    position: relative;
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-family: "LeagueSpartanLight";
+  }
+}

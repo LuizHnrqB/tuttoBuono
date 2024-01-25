@@ -1,0 +1,17 @@
+.paoSemFundo {
+  width: 475px;
+  height: 334px;
+}
+.mainTitle {
+  font-size: 48px;
+  font-weight: bold;
+}
+.subTitle {
+  font-size: 24;
+}
+.allWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

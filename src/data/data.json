@@ -1,0 +1,40 @@
+[
+  {
+    "Nome": "Pão Rústico",
+    "Preco": "R$20",
+    "Foto": "paoRustico"
+  },
+  {
+    "Nome": "Pão Rústico Semi-Integral",
+    "Preco": "R$25",
+    "Foto": "semiIntegral"
+  },
+  {
+    "Nome": "Pão Rústico Especial",
+    "Preco": "R$30",
+    "Foto": "Calabresa",
+    "Recheio": [
+      { "recheio": "Calabresa" },
+      { "recheio": "Azeitona" },
+      { "recheio": "Açafrão" },
+      { "recheio": "Parmesão" },
+      { "recheio": "Bacon" },
+      { "recheio": "MultiGrãos" }
+    ]
+  },
+  {
+    "Nome": "Pão de forma branco",
+    "Preco": "R$18",
+    "Foto": "paoForma"
+  },
+  {
+    "Nome": "Pão de forma integral",
+    "Preco": "R$18",
+    "Foto": "paoFormaIntegral"
+  },
+  {
+    "Nome": "Rosca Doce",
+    "Preco": "R$20",
+    "Foto": "rosca"
+  }
+]
