@@ -2,6 +2,17 @@
   background-color: transparent;
   border: 0;
 }
+.bodyModal {
+  font-family: "LeaagueSpartanExtraLight";
+}
+.aboutUs {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 14px;
+}
+.modalStyle {
+  color: black;
+}
 .zipzap a {
   height: 52px;
   width: auto;
@@ -17,13 +28,71 @@
   top: 0%;
   left: 0%;
 }
-.jorgeCajuru {
+.headerWrapper img {
+  width: 200px;
+}
+.wrapper {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   width: 100vw;
   margin-top: -8px;
   margin-left: -8px;
   height: 300px;
 }
-.headerWrapper img {
-  width: 200px;
+
+@media (max-width: 768px) {
+  .headerWrapper {
+    width: 110vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-top: 0;
+    position: relative;
+    top: 0%;
+    left: 0%;
+  }
+  .zipzap {
+    background-color: transparent;
+    border: 0;
+    top: -12px;
+    position: relative;
+    margin-right: 7px;
+    margin-top: 5px;
+  }
+  .zipzap a {
+    height: 26px;
+    width: auto;
+  }
+  .zipzapIMG {
+    width: 100px !important;
+  }
+
+  .headerWrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 0;
+    position: relative;
+    top: 0%;
+    left: 0%;
+  }
+  .tuttoBuono {
+    width: 185px !important;
+  }
+  .wrapper {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    width: 103vw;
+    margin-top: -8px;
+    margin-left: -8px;
+    height: 200px;
+    left: 0;
+  }
+  .tuttoBuono {
+    width: 175px;
+    position: relative;
+    top: 75px;
+    left: 5%;
+  }
 }

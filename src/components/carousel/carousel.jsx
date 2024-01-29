@@ -17,8 +17,17 @@ export function CustomCarousel({ paos }) {
       ></div>
     );
   }
-
-  const settings = {
+  const isDesktop = window.innerWidth >= 768;
+  const settings2 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SampleNextArrow />,
+  };
+  const settings1 = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -30,25 +39,62 @@ export function CustomCarousel({ paos }) {
   console.log(paos);
   return (
     <div className="carouselWrapper">
-      <Slider {...settings}>
-        {paos.map((pao, index) => (
-          <div
-            key={index}
-            className={`entryWrapper ${
-              hoveredIndex === index ? "hovered" : ""
-            }`}
-            onMouseEnter={() => setHoveredIndex(index)}
-            onMouseLeave={() => setHoveredIndex(null)}
-          >
+      {isDesktop && (
+        <Slider {...settings1}>
+          {paos.map((pao, index) => (
             <div
-              className="fundoIMG"
-              style={{
-                backgroundImage: `url(src/assets/paes/${pao.Foto}.png)`,
-                backgroundSize: "cover",
-              }}
+              key={index}
+              className={`entryWrapper ${
+                hoveredIndex === index ? "hovered" : ""
+              }`}
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
             >
-              <div className="">
-                {hoveredIndex === index && (
+              <div
+                className="fundoIMG"
+                style={{
+                  backgroundImage: `url(src/assets/paes/${pao.Foto}.png)`,
+                  backgroundSize: "cover",
+                }}
+              >
+                <div className="">
+                  {hoveredIndex === index && (
+                    <div className="textoWrapper">
+                      <div className="textoIMG">
+                        <p className="nomePao">{pao.Nome}</p>
+                        <p className="preco">{pao.Preco}</p>
+
+                        {pao.Recheio && (
+                          <div className="recheios">
+                            <p>
+                              Recheios:
+                              {paos[index].Recheio.map((recheio, index) => (
+                                <span key={index}>{recheio.recheio}, </span>
+                              ))}
+                            </p>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))}
+        </Slider>
+      )}
+      {!isDesktop && (
+        <Slider {...settings2}>
+          {paos.map((pao, index) => (
+            <div>
+              <div
+                className="fundoIMG"
+                style={{
+                  backgroundImage: `url(src/assets/paes/${pao.Foto}.png)`,
+                  backgroundSize: "cover",
+                }}
+              >
+                <div className="">
                   <div className="textoWrapper">
                     <div className="textoIMG">
                       <p className="nomePao">{pao.Nome}</p>
@@ -66,12 +112,12 @@ export function CustomCarousel({ paos }) {
                       )}
                     </div>
                   </div>
-                )}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      )}
     </div>
   );
 }

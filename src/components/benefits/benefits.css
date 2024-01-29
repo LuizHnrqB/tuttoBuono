@@ -1,12 +1,13 @@
-.wrapper {
+.wrapperBenefits {
   /* margin-left: 10%; */
   display: flex;
   flex-direction: column;
   position: relative;
   left: 20%;
 }
-.mainTitle {
+.mainTitleBenefits {
   color: #e7a93b;
+  width: 100%;
 }
 .flexControl {
   display: flex;
@@ -16,6 +17,8 @@
 .content {
   color: black;
   margin: 5px;
+  padding-top: 5px;
+  font-family: "LeagueSpartanRegular";
 }
 .contentWrapper {
   justify-content: center;
@@ -38,4 +41,50 @@
   margin-bottom: 10px;
   width: 30%;
   box-sizing: border-box;
+}
+@media (max-width: 1439px) {
+  .wrapperBenefits {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20%;
+  }
+  .mainTitleBenefits {
+    color: #e7a93b;
+  }
+  .flexControl {
+    display: flex;
+    flex-wrap: wrap;
+    left: -32px;
+    width: 90%;
+    position: relative;
+  }
+  .content {
+    color: black;
+    margin: 5px;
+    padding-top: 5px;
+    font-family: "LeagueSpartanRegular";
+  }
+  .contentWrapper {
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+  }
+  .insideTitle {
+    color: #e7a93b;
+    margin-bottom: -5px;
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .contentBox {
+    border-radius: 12px;
+    background-color: white;
+    margin: 5px;
+    align-content: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 40%;
+    box-sizing: border-box;
+  }
 }

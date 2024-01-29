@@ -81,10 +81,8 @@
 }
 .preco {
   font-size: 18.6px;
-  font-family: "LeagueSpartanLight";
+  font-family: "LeaagueSpartanRegular";
   margin: 0;
-  font-family: "LeagueSpartanLight";
-  src: url("./assets/fonts/LeagueSpartan-Light.ttf") format("truetype");
 }
 .hoverContent {
   margin-top: 57%;
@@ -96,22 +94,10 @@
   display: inline;
   justify-content: center;
   align-items: center;
-  font-family: "LeagueSpartanLight";
+  font-family: "LeaagueSpartanRegular";
 }
 .carousel {
   width: 100%;
-}
-@font-face {
-  font-family: "LeagueSpartanLight";
-  src: url("./assets/fonts/LeagueSpartan-Light.ttf") format("truetype");
-  font-weight: lighter;
-  font-style: normal;
-}
-@font-face {
-  font-family: "LeagueSpartanSemiBold";
-  src: url("./assets/fonts/LeagueSpartan-SemiBold.ttf") format("truetype");
-  font-weight: bolder;
-  font-style: normal;
 }
 
 @media (max-width: 1439px) {
@@ -216,5 +202,38 @@
     justify-content: center;
     align-items: center;
     font-family: "LeagueSpartanLight";
+  }
+  @media (max-width: 1439px) {
+    .trigo1 {
+      position: relative;
+      left: -3%;
+      /* bottom: -2%; */
+      width: 25px;
+      top: -68%;
+      z-index: 9;
+    }
+    .trigo2 {
+      position: relative;
+      left: 2%;
+      z-index: 9;
+      /* bottom: -31%; */
+      top: 30%;
+      width: 25px;
+    }
+    .fundoIMG {
+      height: 159px;
+      width: 153px;
+      margin: 5px;
+      display: flex;
+      align-items: flex-end;
+    }
+    .textoWrapper {
+      color: azure;
+      width: 153px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to top, #e7a93b, rgba(0, 0, 0, 0));
+    }
   }
 }
