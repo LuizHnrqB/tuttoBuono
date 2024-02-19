@@ -7,8 +7,17 @@ import background from "/background.jpg";
 import { BenefitsList } from "./components/benefits/benefits";
 
 function App() {
+  const containerStyles = {
+    backgroundImage: `url(${background})`,
+    backgroundRepeat: "repeat-y",
+    backgroundAttachment: "fixed",
+    backgroundPosition: "center",
+    color: "rgb(255, 255, 255)",
+    fontFamily: "RocaTwoHeavy",
+    overflowX: "hidden",
+  };
   return (
-    <div className="containerLista">
+    <div className="containerLista" style={containerStyles}>
       <header className="header">
         <Header />
       </header>
