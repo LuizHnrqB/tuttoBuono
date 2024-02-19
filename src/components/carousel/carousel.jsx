@@ -76,25 +76,25 @@ export function CustomCarousel({ paos }) {
                 }}
               >
                 <div className="">
-                  {/* {hoveredIndex === index && ( */}
-                  <div className="textoWrapper">
-                    <div className="textoIMG">
-                      <p className="nomePao">{pao.Nome}</p>
-                      <p className="preco">{pao.Preco}</p>
+                  {hoveredIndex === index && (
+                    <div className="textoWrapper">
+                      <div className="textoIMG">
+                        <p className="nomePao">{pao.Nome}</p>
+                        <p className="preco">{pao.Preco}</p>
 
-                      {pao.Recheio && (
-                        <div className="recheios">
-                          <p>
-                            Recheios:
-                            {paos[index].Recheio.map((recheio, index) => (
-                              <span key={index}>{recheio.recheio}, </span>
-                            ))}
-                          </p>
-                        </div>
-                      )}
+                        {pao.Recheio && (
+                          <div className="recheios">
+                            <p>
+                              Recheios:
+                              {paos[index].Recheio.map((recheio, index) => (
+                                <span key={index}>{recheio.recheio}, </span>
+                              ))}
+                            </p>
+                          </div>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                  {/* )} */}
+                  )}
                 </div>
               </div>
             </div>

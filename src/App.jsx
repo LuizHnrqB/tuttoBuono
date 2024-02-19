@@ -3,6 +3,7 @@ import { HeadLiner } from "./components/headLiner/headLiner";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 import { Header } from "./components/header/header";
+import background from "/background.jpg";
 import { BenefitsList } from "./components/benefits/benefits";
 
 function App() {

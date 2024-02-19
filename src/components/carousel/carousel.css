@@ -301,7 +301,7 @@
     }
     .textoIMG {
       display: flex;
-      width: 50%;
+      width: 55%;
       height: 100%;
       flex-direction: column;
       align-items: center;
@@ -309,6 +309,12 @@
     }
     .fundoIMG {
       width: 100%;
+    }
+    .recheios {
+      font-family: "LeagueSpartanMedium";
+    }
+    .preco {
+      font-family: "LeagueSpartanMedium";
     }
   }
 }

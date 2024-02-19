@@ -2,36 +2,37 @@
   width: 475px;
   height: 334px;
 }
+
 .mainTitle {
   font-size: 48px;
   font-family: "LeagueSpartanBold";
   font-weight: bold;
 }
+
 .subTitle {
-  font-size: 24;
+  font-size: 24px;
   font-family: "LeagueSpartanRegular";
 }
+
 .allWrapper {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
-@media (width: 412px) {
+
+@media (max-width: 412px) {
   .mainTitle {
     margin-top: 20px;
     font-size: 21px;
     font-weight: bold;
     font-family: "LeagueSpartanBold";
   }
+
   .subTitle {
     font-size: 16px;
     font-family: "LeagueSpartanRegular";
-  }
-  .allWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 }
