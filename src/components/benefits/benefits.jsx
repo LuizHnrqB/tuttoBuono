@@ -10,7 +10,7 @@ export function BenefitsList() {
         {pt.map((beneficio, index) => (
           <div className="contentBox">
             <div className="contentWrapper">
-              <img src="src\assets\bread.png" />
+              <img src="assets\bread.png" />
               <h3 className="insideTitle">{beneficio.titulo}</h3>
               <p className="content">{beneficio.corpo}</p>
             </div>

@@ -12,7 +12,7 @@
   {
     "Nome": "Pão Rústico Especial",
     "Preco": "R$30",
-    "Foto": "Calabresa",
+    "Foto": "calabresa",
     "Recheio": [
       { "recheio": "Calabresa" },
       { "recheio": "Azeitona" },

@@ -26,7 +26,7 @@ export function Header() {
         </div>
         <img
           className="tuttoBuono"
-          src="src\assets\tuttobuono.png"
+          src="assets\tuttobuono.png"
           alt="Tutto Buono"
         />
 
@@ -34,7 +34,7 @@ export function Header() {
           <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
             <img
               className="zipzapIMG"
-              src="src\assets\contato.png"
+              src="assets\contato.png"
               alt="WhatsApp"
             />
           </a>

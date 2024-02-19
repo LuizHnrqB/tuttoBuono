@@ -13,11 +13,11 @@ export function ContainerLista() {
         <h1>Cardápio</h1>
       </div>
       <div className="listaWrapper">
-        <img src="src\assets\trigo.png" className="trigo1" />
+        <img src="assets\trigo.png" className="trigo1" />
 
         <CustomCarousel paos={paos} className="carousel" />
 
-        <img src="src\assets\trigo.png" className="trigo2" />
+        <img src="assets\trigo.png" className="trigo2" />
       </div>
     </div>
   );

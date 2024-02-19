@@ -10,7 +10,7 @@ export function HeadLiner() {
         {isDesktop && (
           <img
             className="paoSemFundo"
-            src="src\assets\paoSemFundo.png"
+            src="assets\paoSemFundo.png"
             alt="Pão Sem Fundo"
           />
         )}

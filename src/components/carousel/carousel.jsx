@@ -53,7 +53,7 @@ export function CustomCarousel({ paos }) {
               <div
                 className="fundoIMG"
                 style={{
-                  backgroundImage: `url(src/assets/paes/${pao.Foto}.png)`,
+                  backgroundImage: `url(/assets/paes/${pao.Foto}.png)`,
                   backgroundSize: "cover",
                 }}
               >
@@ -90,7 +90,7 @@ export function CustomCarousel({ paos }) {
               <div
                 className="fundoIMG"
                 style={{
-                  backgroundImage: `url(src/assets/paes/${pao.Foto}.png)`,
+                  backgroundImage: `url(assets/paes/${pao.Foto}.png)`,
                   backgroundSize: "cover",
                 }}
               >
