@@ -3,14 +3,14 @@ body {
 }
 @font-face {
   font-family: "RocaTwoHeavy";
-  src: url("./assets/fonts/roca-two-heavy.ttf") format("woff2");
+  src: url("./fontsfonts/roca-two-heavy.ttf") format("woff2");
   font-weight: 900;
   font-style: normal;
   color: #ffff;
 }
 @font-face {
   font-family: "LeagueSpartanRegular";
-  src: url("./assets/fonts/LeagueSpartan-Regular.ttf") format("truetype");
+  src: url("./fonts/LeagueSpartan-Regular.ttf") format("woff2");
   font-style: normal;
 }
 .header {
