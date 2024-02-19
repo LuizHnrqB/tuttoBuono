@@ -1,4 +1,4 @@
-import "./headLiner/headliner.css";
+import "../headLiner/headLiner.css";
 const isDesktop = window.innerWidth >= 768;
 
 export function HeadLiner() {
