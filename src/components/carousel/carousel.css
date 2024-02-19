@@ -1,3 +1,59 @@
+@font-face {
+  font-family: "RocaTwoheavy";
+  src: url("./fonts/roca-two-heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LeagueSpartanBlack";
+  src: url("./fonts/LeagueSpartan-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LeagueSpartanExtraBold";
+  src: url("./fonts/LeagueSpartan-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: bolder;
+}
+@font-face {
+  font-family: "LeagueSpartanExtraLight";
+  src: url("./fonts/LeagueSpartan-ExtraLight.ttf") format("truetype");
+  font-weight: 900;
+  font-style: lighter;
+}
+
+@font-face {
+  font-family: "LeagueSpartanMedium";
+  src: url("./fonts/LeagueSpartan-Medium.ttf") format("truetype");
+  font-weight: 900;
+  font-style: medium;
+}
+@font-face {
+  font-family: "LeagueSpartanRegular";
+  src: url("./fonts/LeagueSpartan-Regular.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LeagueSpartanSemiBold";
+  src: url("./fonts/LeagueSpartan-SemiBold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LeagueSpartanThin";
+  src: url("./fonts/LeagueSpartan-Thin.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LeagueSpartanBold";
+  src: url("./fonts/LeagueSpartan-Bold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: bold;
+}
+
 .entryWrapper {
   display: flex;
   align-items: center;
@@ -29,8 +85,6 @@
   display: flex;
   flex-direction: column;
   height: 120px;
-  font-family: "LeagueSpartanSemiBold";
-  src: url("./assets/fonts/LeagueSpartan-SemiBold.ttf") format("truetype");
   align-items: center;
   justify-content: center;
 }
@@ -56,9 +110,8 @@
   border-top-left-radius: 5.87px;
 }
 .divInterna {
-  font-family: "League Spartan";
+  font-family: "LeagueSpartanRegular";
   justify-items: flex-start;
-
   font-weight: 500;
   margin: 24px;
   position: relative;
@@ -81,7 +134,7 @@
 }
 .preco {
   font-size: 18.6px;
-  font-family: "LeaagueSpartanRegular";
+  font-family: "LeagueSpartanRegular";
   margin: 0;
 }
 .hoverContent {
@@ -94,7 +147,7 @@
   display: inline;
   justify-content: center;
   align-items: center;
-  font-family: "LeaagueSpartanRegular";
+  font-family: "LeagueSpartanRegular";
 }
 .carousel {
   width: 100%;
@@ -130,8 +183,6 @@
     padding-top: 14px;
     flex-direction: column;
     height: 60px;
-    font-family: "LeagueSpartanSemiBold";
-    src: url("./assets/fonts/LeagueSpartan-SemiBold.ttf") format("truetype");
     align-items: center;
     justify-content: center;
   }

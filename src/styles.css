@@ -1,5 +1,5 @@
 body {
-  background-image: url("assets/background.jpg");
+  background-image: url("/assets/background.jpg");
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-position: center;
@@ -15,50 +15,50 @@ body {
   font-style: normal;
 }
 @font-face {
-  font-family: "LeaagueSpartanBlack";
+  font-family: "LeagueSpartanBlack";
   src: url("./fonts/LeagueSpartan-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: "LeaagueSpartanExtraBold";
+  font-family: "LeagueSpartanExtraBold";
   src: url("./fonts/LeagueSpartan-ExtraBold.ttf") format("truetype");
   font-weight: 900;
   font-style: bolder;
 }
 @font-face {
-  font-family: "LeaagueSpartanExtraLight";
+  font-family: "LeagueSpartanExtraLight";
   src: url("./fonts/LeagueSpartan-ExtraLight.ttf") format("truetype");
   font-weight: 900;
   font-style: lighter;
 }
 
 @font-face {
-  font-family: "LeaagueSpartanMedium";
+  font-family: "LeagueSpartanMedium";
   src: url("./fonts/LeagueSpartan-Medium.ttf") format("truetype");
   font-weight: 900;
   font-style: medium;
 }
 @font-face {
-  font-family: "LeaagueSpartanRegular";
+  font-family: "LeagueSpartanRegular";
   src: url("./fonts/LeagueSpartan-Regular.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: "LeaagueSpartanSemiBold";
+  font-family: "LeagueSpartanSemiBold";
   src: url("./fonts/LeagueSpartan-SemiBold.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: "LeaagueSpartanThin";
+  font-family: "LeagueSpartanThin";
   src: url("./fonts/LeagueSpartan-Thin.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: "LeaagueSpartanBold";
+  font-family: "LeagueSpartanBold";
   src: url("./fonts/LeagueSpartan-Bold.ttf") format("truetype");
   font-weight: 900;
   font-style: bold;

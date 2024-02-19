@@ -4,12 +4,12 @@
 }
 .mainTitle {
   font-size: 48px;
-  font-family: "LeaagueSpartanBold";
+  font-family: "LeagueSpartanBold";
   font-weight: bold;
 }
 .subTitle {
   font-size: 24;
-  font-family: "LeaagueSpartanRegular";
+  font-family: "LeagueSpartanRegular";
 }
 .allWrapper {
   display: flex;
@@ -22,11 +22,11 @@
     margin-top: 20px;
     font-size: 21px;
     font-weight: bold;
-    font-family: "LeaagueSpartanBold";
+    font-family: "LeagueSpartanBold";
   }
   .subTitle {
     font-size: 16px;
-    font-family: "LeaagueSpartanRegular";
+    font-family: "LeagueSpartanRegular";
   }
   .allWrapper {
     display: flex;
