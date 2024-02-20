@@ -10,7 +10,7 @@ export function ContainerLista() {
   return (
     <div className="tudoWrapper">
       <div className="listaTitle">
-        <h1>Cardápio</h1>
+        <h1 className="cardapio">Cardápio</h1>
       </div>
       <div className="listaWrapper">
         <img src="assets\trigo.png" className="trigo1" />

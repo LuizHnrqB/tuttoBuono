@@ -11,34 +11,14 @@ export function Header() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const phoneNumber = "+5531983004028";
-  const mensagem = encodeURIComponent(
-    "Olá! Gostaria de realizar um pedido com vocês!"
-  );
-
-  const whatsappLink = `https://wa.me/${phoneNumber}?text=${mensagem}`;
-
   return (
     <div className="wrapper">
       <div className="headerWrapper">
-        <div onClick={handleShow} className="aboutUs">
-          Sobre nós:
-        </div>
         <img
           className="tuttoBuono"
           src="assets\tuttobuono.png"
           alt="Tutto Buono"
         />
-
-        <button className="zipzap">
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-            <img
-              className="zipzapIMG"
-              src="assets\contato.png"
-              alt="WhatsApp"
-            />
-          </a>
-        </button>
       </div>
       <div>
         <Modal className="modalStyle" show={show} onHide={handleClose}>
