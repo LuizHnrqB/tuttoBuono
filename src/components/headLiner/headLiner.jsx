@@ -2,7 +2,7 @@ import "../headLiner/headLiner.css";
 const isDesktop = window.innerWidth >= 768;
 
 export function HeadLiner() {
-  const phoneNumber = "+5531983004028";
+  const phoneNumber = "+5531995407582";
   const mensagem = encodeURIComponent(
     "Olá! Gostaria de realizar um pedido com vocês!"
   );
@@ -22,6 +22,7 @@ export function HeadLiner() {
           />
         )}
       </div>
+
       <button className="zipzap">
         <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
           <img className="zipzapIMG" src="assets\contato.png" alt="WhatsApp" />
