@@ -23,29 +23,29 @@ export function CustomCarousel() {
   const imageNumbers = Array.from({ length: 11 }, (_, i) => i + 1);
 
   const settings1 = {
-    dots: true,
-    infinite: true,
+    dots: false,
+    infinite: false,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SampleNextArrow />,
   };
   const settings2 = {
-    dots: true,
-    infinite: true,
+    dots: false,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SampleNextArrow />,
   };
   const settings3 = {
-    dots: true,
-    infinite: true,
+    dots: false,
+    infinite: false,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SampleNextArrow />,
   };

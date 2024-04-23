@@ -23,7 +23,7 @@ export function HeadLiner() {
         )}
       </div>
 
-      <button className="zipzap">
+      <button className="zipzapHeader">
         <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
           <img
             className="headerZipzapIMG"

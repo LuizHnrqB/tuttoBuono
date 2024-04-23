@@ -60,17 +60,7 @@ export function ContainerLista() {
           ))}
         </div>
       </div>
-      <div className="zipZapContainer">
-        <button className="zipzap">
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-            <img
-              className="zipzapIMG"
-              src="assets\contato.png"
-              alt="WhatsApp"
-            />
-          </a>
-        </button>
-      </div>
+
       <div className="carousel">
         <CustomCarousel paos={paos} className="carouselInside" />
       </div>
