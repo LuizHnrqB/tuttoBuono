@@ -1,40 +1,47 @@
 [
   {
     "Nome": "Pão Rústico",
-    "Preco": "R$20",
-    "Foto": "paoRustico"
-  },
-  {
-    "Nome": "Pão Rústico Semi-Integral",
-    "Preco": "R$25",
-    "Foto": "semiIntegral"
-  },
-  {
-    "Nome": "Pão Rústico Especial",
-    "Preco": "R$30",
-    "Foto": "calabresa",
+    "Preco": [
+      { "preco": "R$20", "PrecoDesc": "Normal ou Semi integral" },
+      { "preco": "R$25", "PrecoDesc": "Sabores Especiais" }
+    ],
+    "Foto": "paoRustico",
     "Recheio": [
+      { "recheio": "Normal" },
+      { "recheio": "Semi integral" },
       { "recheio": "Calabresa" },
       { "recheio": "Azeitona" },
       { "recheio": "Açafrão" },
       { "recheio": "Parmesão" },
       { "recheio": "Bacon" },
       { "recheio": "MultiGrãos" }
-    ]
+    ],
+    "Icon": "paoRustico"
   },
   {
-    "Nome": "Pão de forma branco",
-    "Preco": "R$18",
-    "Foto": "paoForma"
-  },
-  {
-    "Nome": "Pão de forma integral",
-    "Preco": "R$18",
-    "Foto": "paoFormaIntegral"
+    "Nome": "Pão de forma",
+    "Preco": [{ "preco": "R$18", "PrecoDesc": "Normal ou Semi integral" }],
+    "Foto": "paoForma",
+    "Icon": "paoForma",
+    "Recheio": [{ "recheio": "Normal" }, { "recheio": "Semi-Integral" }]
   },
   {
     "Nome": "Rosca Doce",
-    "Preco": "R$20",
-    "Foto": "rosca"
+    "Preco": [{ "preco": "R$20", "PrecoDesc": "Rosca Doce" }],
+    "Foto": "rosca",
+    "Icon": "rosca"
+  },
+  {
+    "Nome": "Bolos",
+    "Preco": [{ "preco": "R$18", "PrecoDesc": "Todos" }],
+    "Foto": "bolo",
+    "Recheio": [
+      { "recheio": "Tradicional" },
+      { "recheio": "Banana Invertido" },
+      { "recheio": "Oreo" },
+      { "recheio": "Red Velvet" },
+      { "recheio": "Capuccino" }
+    ],
+    "Icon": "bolo"
   }
 ]

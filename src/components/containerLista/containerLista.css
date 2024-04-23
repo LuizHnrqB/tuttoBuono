@@ -1,5 +1,5 @@
 .listaWrapper {
-  background-color: rgba(255, 255, 255, 0.678);
+  background-color: white;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -7,7 +7,103 @@
   position: relative;
 }
 .cardapio {
-  padding-top: 2rem;
+  background-color: transparent;
+}
+.paoNome {
+  font-family: "LeagueSpartanSemiBold";
+  font-weight: normal;
+  color: #cf9500;
+  font-size: 1.12rem;
+  margin-bottom: 1rem;
+}
+.cardapioWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.cardapioItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  margin-top: 0;
+  width: 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+  padding: 0.8rem;
+}
+.column {
+  width: 30%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.column img {
+  width: 100%;
+  max-width: 100%;
+  align-self: center;
+  padding-right: 2rem;
+}
+.column2 {
+  display: flex;
+  padding-left: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.zipzap {
+  width: 35rem;
+  border-radius: 36px;
+  background-color: #e7a93b;
+  color: #fff;
+  font-family: "RocaTwoheavy";
+}
+.zipZapContainer {
+  position: relative;
+  left: 35%;
+  margin-top: -2rem;
+}
+
+.column3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.precoDscp {
+  font-family: "LeagueSpartanLight";
+  font-weight: normal;
+  color: black;
+  font-size: 0.87rem;
+}
+.precoNmr {
+  color: black;
+  font-family: "LeagueSpartanSemiBold";
+  font-weight: normal;
+  font-size: 1.12rem;
+}
+.recheios {
+  font-family: "LeagueSpartanRegular";
+  font-weight: normal;
+  font-size: 0.93rem;
+  color: #666666;
+}
+.carousel {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.678);
+}
+.carouselInside {
+  position: relative;
+  left: 40%;
+}
+.Icon {
+  width: 6.3rem;
+  height: auto;
 }
 .trigo1 {
   position: relative;
@@ -26,7 +122,7 @@
   bottom: -5%;
 }
 .listaTitle {
-  background-color: rgba(255, 255, 255, 0.678);
+  background-color: transparent;
   justify-content: baseline;
   align-items: baseline;
   display: flex;
@@ -46,12 +142,26 @@
 }
 
 @media (max-width: 1439px) {
+  .column2 {
+    display: flex;
+    padding-left: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.6rem;
+    margin-right: 1.6rem;
+  }
+  .trigo1,
+  .trigo2,
+  .trigo3 {
+    display: none;
+  }
   .listaWrapper {
-    background-color: rgba(255, 255, 255, 0.678);
+    background-color: white;
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 235px;
+    height: 36rem;
     position: relative;
   }
   .listaTitle {
@@ -90,27 +200,68 @@
     bottom: -5%;
     width: 50px;
   }
+  .zipzapIMG {
+    border-radius: 36px;
+    height: 6rem;
+    padding: 1rem;
+    padding-left: 6.813rem;
+    padding-right: 6.813rem;
+    width: 26rem;
+    height: auto;
+    font-size: 1.5rem;
+    background-color: #e7a93b;
+    color: #fff;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
+  .zipzapIMG {
+    border-radius: 36px;
+    height: 6rem;
+    padding: 1rem;
+    padding-left: 6.813rem;
+    padding-right: 6.813rem;
+    width: 26rem;
+    height: auto;
+    font-size: 1.5rem;
+    background-color: #e7a93b;
+    color: #fff;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carousel {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    height: 220px;
+    background-color: rgba(255, 255, 255, 0.678);
+  }
+  .listaWrapper {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    position: relative;
+    width: 100%;
+  }
+
   .cardapio {
+    background-color: transparent;
     padding-top: 0.5rem;
     padding-bottom: 0.75rem;
   }
   .trigo1 {
-    position: relative;
-    left: -2%;
-    top: -38%;
-    bottom: 40%;
-    width: 28px;
-    z-index: 9;
+    display: none;
   }
   .trigo2 {
-    position: relative;
-    left: 2%;
-    top: 28%;
-    z-index: 9;
-    width: 28px;
-    bottom: -5%;
+    display: none;
+  }
+  .trigo3 {
+    display: none;
   }
   .listaTitle {
     justify-content: baseline;
@@ -148,5 +299,28 @@
     margin-left: -8px;
     height: 200px;
     left: 0;
+  }
+
+  .cardapioItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    margin-top: 0;
+    width: 75%;
+    max-width: 75%;
+    box-sizing: border-box;
+    padding: 0.8rem;
+    flex-direction: column;
+    border-bottom: 1px solid #858585;
+  }
+  .precos {
+    display: flex;
+    flex-direction: row;
+  }
+  .zipZapContainer {
+    position: relative;
+    left: -16%;
+    margin-top: -1rem;
   }
 }

@@ -23,18 +23,19 @@
   text-align: center;
 }
 .zipzap {
+  width: 35rem;
   border-radius: 36px;
   background-color: #e7a93b;
   color: #fff;
   font-family: "RocaTwoheavy";
 }
-.zipzap img {
+.headerZipzapIMG {
   border-radius: 36px;
   height: 6rem;
   padding: 1rem;
   padding-left: 6.813rem;
   padding-right: 6.813rem;
-  width: 22.1rem;
+  width: 26rem;
   height: auto;
   font-size: 1.5rem;
   background-color: #e7a93b;
